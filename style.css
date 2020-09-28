@@ -1,0 +1,124 @@
+.container{
+  height:460px;
+  width:500px;
+  background-color: #9DD2EA;
+  margin:100px auto 100px auto;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 0px #009de4;
+}
+
+
+
+.clickon{
+  height:50px;
+  background-color: purple;
+  width:425px;
+  position: absolute;
+  top:430px;
+  left:555px;
+  padding:0px;
+  text-align: center;
+  color: white;
+}
+
+.ans{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  font-family: cursive;
+}
+
+.stopwatch{
+  width: 70px;
+  height:25px;
+  background-color: #99f3bd;
+  margin-top:93px;
+  margin-left: 380px;
+  position: absolute;
+  box-shadow: 2px 2px 0px 0px #7ea04d;
+
+}
+
+.ans:hover{
+  height: 100px;
+  width: 100px;
+  background-color: #c3aed6;
+  border-radius: 30px;
+  color:white;
+}
+
+.AnsContainer{
+  padding-left: 45px;
+  position: absolute;
+  top:460px;
+  margin-top: 30px;
+}
+
+h5{
+  padding-top:5px;
+  padding-left: 3px;
+}
+
+h3{
+  text-align: center;
+  line-height: 1rem;
+  letter-spacing: .1rem;
+}
+
+.value{
+  padding-top:5px;
+}
+
+.Scorecontainer{
+  background-color:#ffefa0;
+  width: 55px;
+  height:25px;
+  margin-top: 0px;
+  margin-left: 400px;
+  box-shadow: 2px 2px 0px 0px #f6d6ad;
+}
+
+.innercontainer{
+  background-color: pink ;
+  height:135px;
+  width:350px;
+  margin:5px auto 100px auto;
+  box-shadow: 4px 4px 0px 0px #ffb0b0;
+  font-size: 5em;
+  text-align: center;
+padding-bottom: 0px;
+padding-top: 67px;
+font-family: cursive;
+
+}
+
+.rightanswer{
+  position: absolute;
+  left:755px;
+  background-color: #28df99;
+  color:white;
+  height:27px;
+  width:60px;
+  padding:10px;
+}
+
+.wronganswer{
+  position: absolute;
+  left:675px;
+  height:27px;
+  width:60px;
+  background-color: #ff7e67;
+  color:white;
+  padding:10px;
+
+}
+
+
+.rightwrong{
+  padding:10px;
+  margin: 0px;
+}
