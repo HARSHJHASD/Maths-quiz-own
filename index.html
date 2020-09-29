@@ -1,49 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Maths Game</title>
-    <meta name="viewport" content="width =device - width,initial-scale = 1, user-scalable = yes" content="">
-  </head>
-  <body>
-    <h1>Maths Game.</h1>
-    
-    
-    <div class="container">
-      <div class="rightanswer">
-      <h5 class="rightwrong" >Right</h5>
-      </div>
-      <div class="wronganswer">
-        <h5 class="rightwrong" >TryAgain</h5>
-      </div>
-  
-      <div class="Scorecontainer">
-        <h5>Score:<span id="value" > 0 </span></h5>
-      </div>
-      <div class="innercontainer">
-        <span>QnsHere</span>
-      </div>
-      
-      <div class="clickon">
-        <h3 >Click on the correct answer.</h3>
-      </div>
-      
-      <div class="AnsContainer">
-        <button type="button" class="ans" name="button">Ans2</button>
-        <button type="button" class="ans" name="button">Ans1</button>
-        <button type="button" class="ans" name="button">Ans3</button>
-        <button type="button" class="ans" name="button">Ans4</button>
-      </div>
-      
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Maths Game</title>
+  <meta name="viewport" content="width =device - width,initial-scale = 1, user-scalable = yes" content="">
+</head>
+
+<body>
+  <h1>Maths Game.</h1>
+
+
+  <div class="container">
+    <div class="rightanswer">
+      <h5 class="rightwrong">Right</h5>
+    </div>
+    <div class="wronganswer">
+      <h5 class="rightwrong">TryAgain</h5>
+    </div>
+
+    <div class="Scorecontainer">
+      <h5>Score:<span id="value"></span></h5>
+    </div>
+    <div class="innercontainer">
+      <span id="qns" >QnsHere</span>
+    </div>
+
+    <div class="clickon">
+      <h3>Click on the correct answer.</h3>
+    </div>
+
+    <div class="AnsContainer">
+      <button type="button" class="ans" id="option1" name="button">Option1</button>
+      <button type="button" class="ans" id="option2" name="button">Option2</button>
+      <button type="button" class="ans" id="option3" name="button">Option3</button>
+      <button type="button" class="ans" id="option4" name="button">Option4</button>
+    </div>
+
+    <div class="startButton">
+
+      <button type="button" id="startButton" name="button">Start</button>
+
+
+    </div>
+
     <div class="stopwatch">
-      <span>StopWatch</span>
+      <span id="stopwatch">30</span>
     </div>
-      
-            
+
+
+    <div class="gameover" id="effect">
+      <span>
+        <h1 id="gameover">Game Over</h1>
+      </span>
     </div>
-  </body>
-  
-  
+
+
+  </div>
+</body>
+
+
 <script src="app.js" charset="utf-8"></script>
+
 </html>
