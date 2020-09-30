@@ -167,6 +167,11 @@ h3 {
   font-family: cursive;
 }
 
+
+#heading{
+text-align: center;
+
+}
 .rightanswer {
   position: absolute;
   left: 755px;
@@ -190,4 +195,5 @@ h3 {
 .rightwrong {
   padding: 10px;
   margin: 0px;
+  display: none;
 }
